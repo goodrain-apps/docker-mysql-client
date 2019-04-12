@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ! -z "$DEBUG" ]; then
+if [ "$DEBUG" ]; then
     set -x
     VERBOSE="-v"
 fi
